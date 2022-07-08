@@ -1,0 +1,33 @@
+.widget {
+  &.widget_cfw_image_full {
+    padding: 0;
+
+    .image-container {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  &.widget_cfw_image_box {
+    .wp-caption-text {
+      margin: 0;
+    }
+  }
+
+  &.widget_cfw_fieldgroup {
+    .field {
+      margin-bottom: 5px;
+
+      .value {
+        display: block;
+      }
+    }
+  }
+
+  &.widget_cfw_field {
+    p {
+      margin: 0;
+    }
+  }
+}
